@@ -1,0 +1,171 @@
+@import url(//fonts.googleapis.com/css?family=Nunito);
+
+
+
+@media only screen and (max-width: 768px){
+.row{
+  width: auto;
+}
+.col-7{
+  width: 100%;
+}
+.col-5{
+  width: 100%;
+}
+}
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  font-size: 18px;
+ 
+}
+.body-div{
+  margin-left: 20px;
+  margin-right:20px
+}
+.nav-link {
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.searchbar{
+  border-radius: 30px;
+  top:50%;
+  left:50%;
+width: 16rem;
+display: grid;
+
+grid-template-columns: 1fr 3rem;
+align-items: center;
+-webkit-backdrop-filter: blur(8px);  /* Safari 9+ */
+backdrop-filter: blur(8px); /* Chrome and Opera */
+box-shadow: inset 0 0 0 2000px rgba(237, 235, 250, 0.1);;
+height: 50px;
+
+}
+
+.searchbar input{
+  font-size: 15px;
+  padding: 6px;
+  outline: 0;
+  border: 0;
+ background-color: transparent;
+  color:#ffff
+}
+
+.searchbar input::placeholder{
+color: #fcfcfc;
+padding: 10px;
+
+}
+.searchbtn{
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  height: 15px;
+  width: 18px;
+  display: grid;
+  place-items: center;
+}
+.content-text {
+
+  font-weight: 500,
+
+}.client-text-para{
+  font-size: 14px;
+  font-weight: 300;
+}
+.content-text-para1{
+  font-size: 16px;
+  font-weight:900;
+}
+.client-text{
+  font-size: 18px;
+  margin-left: 6px;
+  font-weight: 600;
+}
+.btn-color {
+  color: white;
+  background-color: #fd7e14;
+}
+img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.content-text-para {
+  font-weight: 700;
+
+  font-size: 14px;
+
+}
+
+.btn-color {
+  color: white;
+  background-color: #fd7e14;
+}
+
+.bg-custom-1 {
+  background-color: #85144b;
+}
+
+.bg-custom-2 {
+  background-image: linear-gradient(to left, #f1979e, #fd7e14)
+}
+
+.image-navbar {
+  width: 30px;
+}
+.image-body{
+  width:30px
+  
+}
+.image-body1{
+  width: 30px;
+  height: 40px;
+  border-radius: 20%;
+
+}
+.image-dropdown{
+  width: 24px;
+  height: 14px;
+  border-radius: 2px;
+
+}
+.navbar {
+  background: linear-gradient(to left, rgb(173, 53, 103), #fd7e14);
+}
+.dropdown{
+
+ color: white;
+}
+
+.navbar-icon{
+  font-family: 'Nunito', sans-serif;
+  color: #ffff;
+  font-weight: 300;
+ 
+  font-size: 18px;
+  padding-left: 10px;
+}
+.navar-text {
+  font-family: 'Nunito', sans-serif;
+  color: #ffff;
+  font-weight: 600;
+  line-height: 1.58;
+  font-size: 18px;
+ 
+}
+
+.navar-text-list {
+  font-family: 'Nunito', sans-serif;
+  color: #ffff;
+  font-weight: 300;
+  line-height: 2.58;
+  font-size: 18px;
+  padding-left: 10px;
+}
